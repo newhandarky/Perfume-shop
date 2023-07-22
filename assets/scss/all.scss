@@ -1,0 +1,10 @@
+@import "./base/reset";
+@import "./base/variable";
+@import "./base/generic";
+@import "./utils/grid-test";
+@import "./utils/mixin";
+
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+@import './pages/index.scss';
