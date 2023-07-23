@@ -1,0 +1,23 @@
+.header{
+    padding: 9px 0;
+    &__home{
+        width: 128px;
+        height: 38px;
+        @include img-hide-text;
+        background-image: url("https://github.com/newhandarky/Perfume-shop/blob/main/assets/images/d%E2%80%99Perfume@2x.png?raw=true");
+        background-size: cover;
+    }
+
+    &__link{
+        display: flex;
+        align-items: center;
+        margin-left: 2rem;
+        &:hover{
+            color: $main-color;
+        }
+    }
+    &__icon{
+        font-size: 1.25rem;
+    }
+
+}

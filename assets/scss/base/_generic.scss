@@ -30,7 +30,10 @@
 }
 
 // 樣式
-
+.btn{
+    border-radius: 30px;
+    padding: 0.5rem 0;
+}
 
 
 // 字體
@@ -38,7 +41,13 @@
 
 
 // 顏色
+.nav-color{
+    color: $nav-color;
+}
 
+.white{
+    color: $white-color;
+}
 
 
 // 間距

@@ -4,7 +4,7 @@
 @import "./utils/grid-test";
 @import "./utils/mixin";
 
-@import './layout/header.scss';
-@import './layout/footer.scss';
+@import "./layout/footer";
+@import "./layout/header";
 
-@import './pages/index.scss';
+@import './pages/index';

@@ -1,0 +1,49 @@
+.main{
+    background-image: url("https://github.com/newhandarky/Perfume-shop/blob/main/assets/images/index1.jpg?raw=true");
+    @include bg-img-cover;
+    &__bg{
+        height: 870px;
+    }
+    &__title{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    &__text{
+        font-size: 1.5rem;
+    }
+    &__link{
+        margin-top: 1rem;
+        font-weight: bold;
+        border: 2px solid #FFFFFF;  
+        font-size: 1.5rem;
+        &:hover{
+            color: $main-color;
+            border: 2px solid $main-color;  
+        }
+    }
+}
+
+.main-product{
+    &__img{
+    }
+    &__card__photo{
+        height: 555px;
+        width: auto;
+        @include bg-img-cover;
+    }
+    &__photo1{
+        background-image: url("https://github.com/newhandarky/Perfume-shop/blob/main/assets/images/index2.jpg?raw=true");
+    }
+    &__photo2{
+        background-image: url("https://github.com/newhandarky/Perfume-shop/blob/main/assets/images/index3.png?raw=true");
+        
+    }
+    &__photo3{
+        background-image: url("https://github.com/newhandarky/Perfume-shop/blob/main/assets/images/index4.jpg?raw=true");
+        background-position: center left;
+    }
+    &__photo4{
+        background-image: url("https://github.com/newhandarky/Perfume-shop/blob/main/assets/images/index5.jpg?raw=true");
+        height: 1080px;
+    }
+}
