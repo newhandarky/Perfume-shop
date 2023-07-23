@@ -45,23 +45,34 @@
     padding: 0.5rem 0;
 }
 
-.title {
+
+.h1-title{
+    font-size: 2.5rem;
     font-weight: bold;
 }
-
+.h2-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
 .h3-title{
     font-size: 1.5rem;
     font-weight: bold;
 }
 
+.line-through{
+    text-decoration: line-through;
+}
+
 
 // 字體
-
+.font-w-300{
+    font-weight: 300;
+}
 
 
 // 顏色
-.nav-color {
-    color: $nav-color;
+.gray-color {
+    color: $gray-color;
 }
 
 .white {
@@ -79,12 +90,24 @@
 .mt-4{
     margin-top: 0.25rem;
 }
+.mt-8{
+    margin-top: 0.5rem;
+}
 
 
 
 // left
+.ml-8{
+    margin-left: 0.5rem;
+}
+.ml-20{
+    margin-left: 1.25rem;
+}
 .ml-32 {
     margin-left: 2rem;
+}
+.ml-36{
+    margin-left: 2.25rem;
 }
 
 // bottom

@@ -7,8 +7,8 @@
 
 @mixin img-hover-zoom-in{
     transition: all 0.5s ease-out;
-    transform:scale(1.4,1.4);
-}
+    transform:scale(1.2,1.2);
+}   
 
 @mixin bg-img-cover{
     background-size: cover;

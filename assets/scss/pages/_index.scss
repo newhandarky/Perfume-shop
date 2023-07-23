@@ -4,9 +4,6 @@
     &__bg{
         height: 870px;
     }
-    &__title{
-        font-size: 2.5rem;
-    }
     &__text{
         font-size: 1.5rem;
     }
@@ -31,17 +28,14 @@
         width: auto;
         @include bg-img-cover;
     }
-    &__title{
-        font-size: 2rem;
-    }
     &__text{
         font-size: 1.25rem;
     }
     &__link{
+        display: inline-block;
         color: $gold-color;
         &:hover{
-            background: $gold-color;
-            color: $white-color;
+            text-shadow: 0.1em 0.1em 0.2em #fbcc53;
         }
     }
     &__photo1{
@@ -74,4 +68,58 @@
             color: $main-color;
         }
     }
+}
+
+
+.saleItems{
+    &__bg{
+        background: $sale-items-bg;
+    }
+    padding: 2.5rem 0;
+    &__h3{
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    &__card__item1{
+        @include bg-img-cover;
+        height: 540px;
+        background-image: url("https://github.com/newhandarky/Perfume-shop/blob/main/assets/images/index6.jpg?raw=true");
+
+    }
+    &__card__item2{
+        @include bg-img-cover;
+        height: 540px;
+        background-image: url("https://github.com/newhandarky/Perfume-shop/blob/main/assets/images/index7.jpg?raw=true");
+    }
+    &__card__item3{
+        @include bg-img-cover;
+        height: 540px;
+        background-image: url("https://github.com/newhandarky/Perfume-shop/blob/main/assets/images/index8.jpg?raw=true");
+        mix-blend-mode:multiply;
+    }
+    &__soldOut__text{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
+
+.recycling{
+    padding: 3.75rem 0;
+    &__link{
+        display: inline-block;
+        color: $gold-color;
+        &:hover{
+            text-shadow: 0.1em 0.1em 0.2em #fbcc53;
+        }
+    }
+}
+
+.subscribe{
+    padding-bottom: 7rem;
+    height: 600px;
+    &__bg{
+        background-image: url("https://github.com/newhandarky/Perfume-shop/blob/main/assets/images/index10.jpg?raw=true");
+        @include bg-img-cover;
+    }
+
 }
