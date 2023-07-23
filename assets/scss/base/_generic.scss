@@ -1,38 +1,57 @@
 // 排版
-.fd-column{
+.fd-column {
     flex-direction: column;
 }
+.fd-row-re {
+    flex-direction: row-reverse;
+}
+
 .d-flex {
     display: flex;
 }
 
 // 對齊
-.jc-center{
+.jc-center {
     justify-content: center;
 }
-.jc-end{
+
+.jc-end {
     justify-content: end;
 }
-.jc-between{
+
+.jc-between {
     justify-content: space-between;
 }
-.jc-around{
+
+.jc-around {
     justify-content: space-around;
 }
-.ai-center{
+
+.ai-center {
     align-items: center;
 }
-.ta-center{
+
+.ta-center {
     text-align: center;
 }
-.ta-start{
+
+.ta-start {
     text-align: start;
 }
 
 // 樣式
-.btn{
+.btn {
     border-radius: 30px;
     padding: 0.5rem 0;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.h3-title{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 
@@ -41,17 +60,34 @@
 
 
 // 顏色
-.nav-color{
+.nav-color {
     color: $nav-color;
 }
 
-.white{
+.white {
     color: $white-color;
 }
 
 
 // 間距
+.p-16-0{
+    padding: 1rem 0;
+}
+
+
+// top
+.mt-4{
+    margin-top: 0.25rem;
+}
 
 
 
+// left
+.ml-32 {
+    margin-left: 2rem;
+}
 
+// bottom
+.mb-16 {
+    margin-bottom: 1rem;
+}
