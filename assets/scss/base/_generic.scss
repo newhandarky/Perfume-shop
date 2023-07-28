@@ -5,7 +5,9 @@
 .fd-row-re {
     flex-direction: row-reverse;
 }
-
+.d-box{
+    display: block;
+}
 .d-flex {
     display: flex;
 }
@@ -31,12 +33,20 @@
     align-items: center;
 }
 
+.ai-end{
+    align-items: end;
+}
+
 .ta-center {
     text-align: center;
 }
 
 .ta-start {
     text-align: start;
+}
+
+.m0-a{
+    margin: 0 auto;
 }
 
 // 樣式
@@ -100,6 +110,9 @@
 .ml-8{
     margin-left: 0.5rem;
 }
+.pl-16{
+    padding-left: 1rem;
+}
 .ml-20{
     margin-left: 1.25rem;
 }
@@ -113,4 +126,7 @@
 // bottom
 .mb-16 {
     margin-bottom: 1rem;
+}
+.mb-20{
+    margin-bottom: 1.25rem;
 }
